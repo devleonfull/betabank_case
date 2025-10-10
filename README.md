@@ -18,6 +18,7 @@ This project presents a comprehensive analysis and predictive modeling workflow 
 3. Open `betabank_analysis.ipynb` in Jupyter Notebook or VS Code.
 4. Run the cells sequentially to reproduce the analysis and results.
 
+
 ## Requirements
 - Python 3.8+
 - pandas
@@ -40,12 +41,19 @@ betabank_case/
 ├── betabank_analysis.ipynb
 ├── data/
 │   └── Churn.csv
-└── README.md
+├── README.md
+├── requirements.txt
+└── utils.py
 ```
 
+
 ## Results
-- Achieved high predictive performance using Random Forest with class balancing techniques.
+- Achieved high predictive performance using Random Forest and Logistic Regression, with and without class balancing techniques (SMOTE, RandomOverSampler, RandomUnderSampler).
+- Explored the effect of imbalanced class handling on model performance using the imbalanced-learn library.
 - Provided actionable insights for Betabank to target at-risk customers and improve retention.
+
+## Notes on Class Imbalance Handling
+This project includes a detailed comparison of upsampling, downsampling, and SMOTE for class imbalance, using the `imbalanced-learn` library. The notebook demonstrates how these techniques affect model performance and threshold selection for business objectives.
 
 
 
