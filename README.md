@@ -26,6 +26,7 @@ This project presents a comprehensive analysis and predictive modeling workflow 
 - scikit-learn
 - matplotlib
 - seaborn
+- imbalanced-learn
 
 Install dependencies with:
 ```bash
@@ -48,7 +49,7 @@ betabank_case/
 
 
 ## Results
-- Achieved high predictive performance using Random Forest and Logistic Regression, with and without class balancing techniques (SMOTE, RandomOverSampler, RandomUnderSampler).
+- Achieved significant predictive performance using Random Forest and Logistic Regression.
 - Explored the effect of imbalanced class handling on model performance using the imbalanced-learn library.
 - Provided actionable insights for Betabank to target at-risk customers and improve retention.
 
@@ -58,5 +59,3 @@ This project includes a detailed comparison of upsampling, downsampling, and SMO
 
 
 ---
-
-
